@@ -22,7 +22,7 @@ function showHome() {
             <td>${list[i].id}</td>
             <td>${list[i].name}</td>
             <td>${list[i].price}</td>
-            <td><img src="${list[i].image}" alt=""></td>
+            <td><img class="my-img" src="${list[i].image}" alt=""></td>
             <td><button onclick="removeProduct(${i})">Delete</button></td>
             <td><button onclick="showFormUpdate(${i})">Update</button></td>
         </tr>
